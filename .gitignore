@@ -1,0 +1,84 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+venv310/
+.env/
+.venv/
+
+# IDE/project files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter / Notebooks
+.ipynb_checkpoints
+
+# Build / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# TensorFlow / Mediapipe artifacts
+*.tflite
+*.pb
+*.ckpt
+*.h5
+
+# Images / Videos
+
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Coverage / test reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Logs and temp files
+*.log
+*.out
+*.tmp
+
+# Environment & secrets
+*.env
+*.secret
+*.json
+
+# Media / outputs (large files you don’t want in git)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Checkpoints or intermediate files
+*.ckpt.*
+*.npy
+*.npz
+
+# Editor-specific
+*.sublime-project
+*.sublime-workspace
+
+# OS files (extra safety)
+ehthumbs.db
+Desktop.ini
